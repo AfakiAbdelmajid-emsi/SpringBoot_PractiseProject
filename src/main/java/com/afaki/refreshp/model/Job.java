@@ -8,7 +8,9 @@ public class Job {
     private String location;
     private double salary;
     private JobStatus status;
-    public Job() {}
+
+    public Job() {
+    }
 
     public Job(long id, String title, String description, String company, String location, double salary, JobStatus status) {
         this.id = id;
